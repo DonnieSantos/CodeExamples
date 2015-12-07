@@ -1,0 +1,26 @@
+
+ +--------------------------------------------------+
+ | Extract Images in /images folder before running! |
+ +--------------------------------------------------|
+
+ Controls:
+
+ Left Mouse - Blasters.
+ Right Mouse - Light Saber.
+
+ "1": Single Shot.
+ "2": Twin Blasters.
+
+ "G": Switch Ground Texture.
+ "T": Switch Ship Textures.
+ "F": Toggle Ship Fills.
+ "B": Toggle Bounding Boxes.
+ "D": Toggle Background Fog.
+ "=": Increase Fog Density.
+ "-": Decrease Fog Density.
+
+ "S": Increase Ship Speed.
+ "A": Enable Afterburners.
+
+ "M": Toggle Mouse Visibility.
+ "Q": Quit Program.

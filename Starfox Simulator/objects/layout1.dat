@@ -1,0 +1,18 @@
+16
+./objects/FlyingTurret.obj ./Paths/Translation/Null.pah ./Paths/Rotation/Spin.rot 10 scale 2.0 rotX 0.0 rotY 0 rotZ 0 transX 50 transY 10 transZ -880
+./objects/FlyingTurret.obj ./Paths/Translation/Null.pah ./Paths/Rotation/Spin.rot 10 scale 2.0 rotX 0.0 rotY 0 rotZ 0 transX 110 transY 10 transZ -880
+./objects/fighter.obj ./Paths/Translation/VRT.pah ./Paths/Rotation/VRT.rot 50 scale 0 rotX 0.1 rotY 3.14 rotZ 0 transX 0 transY 0 transZ 10
+./objects/fighter.obj ./Paths/Translation/Warble1.pah ./Paths/Rotation/Null.rot 50 scale 3.0 rotX 0.1 rotY 3.14 rotZ 0 transX 30 transY 15 transZ 10
+./objects/fighter.obj ./Paths/Translation/circleRight.pah ./Paths/Rotation/Null.rot 7 scale 0 rotX 0.1 rotY 3.14 rotZ 0 transX 60 transY 0 transZ 10
+./objects/fighter.obj ./Paths/Translation/VRT.pah ./Paths/Rotation/VRT.rot 50 scale 2.0 rotX 0.1 rotY 3.2 rotZ 0 transX -140 transY 0 transZ -230
+./objects/tank.obj ./Paths/Translation/TwardZ.pah ./Paths/Rotation/Null.rot 10 scale 3.0 rotX 0.0 rotY -1.6 rotZ 0 transX -160 transY -50 transZ 0
+./objects/tank.obj ./Paths/Translation/TankPatrol2.pah ./Paths/Rotation/TankPatrol.rot 10 scale 3.0 rotX 0.0 rotY 4.8 rotZ 0 transX 150 transY -50 transZ -270
+./objects/tank.obj ./Paths/Translation/TwardZ.pah ./Paths/Rotation/Null.rot 10 scale 10.0 rotX 0.0 rotY -1.6 rotZ 0 transX -85 transY -50 transZ -550
+./objects/tank.obj ./Paths/Translation/TankPatrol.pah ./Paths/Rotation/TankPatrol.rot 10 scale 5.0 rotX 0.0 rotY 4.8 rotZ 0 transX -250 transY -50 transZ -705
+./objects/tower.obj ./Paths/Translation/Null.pah ./Paths/Rotation/Null.rot 10 scale 6.0 rotX 0.0 rotY -1.6 rotZ 0 transX -40 transY -50 transZ -580
+./objects/tower.obj ./Paths/Translation/Null.pah ./Paths/Rotation/Null.rot 10 scale 3.0 rotX 0.0 rotY 3.14 rotZ 0 transX -140 transY -50 transZ -300
+./objects/tower.obj ./Paths/Translation/Null.pah ./Paths/Rotation/Null.rot 10 scale 3.0 rotX 0.0 rotY 3.14 rotZ 0 transX -205 transY -50 transZ -300
+./objects/cannons.obj ./Paths/Translation/Null.pah ./Paths/Rotation/Null.rot 10 scale 3.0 rotX 0.0 rotY 0 rotZ 0 transX -140 transY -47 transZ -500
+./objects/cannons.obj ./Paths/Translation/Null.pah ./Paths/Rotation/Null.rot 10 scale 3.0 rotX 0.0 rotY 0 rotZ 0 transX -205 transY -47 transZ -500
+./objects/cannons.obj ./Paths/Translation/Null.pah ./Paths/Rotation/Null.rot 10 scale 7.0 rotX 0.0 rotY 0 rotZ 0 transX 80 transY -43 transZ -870
+End.
