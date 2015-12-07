@@ -1,0 +1,4 @@
+C:\Users\Donald\Desktop\VB\Lab4\Lab4\obj\x86\Debug\Lab4.vbprojResolveAssemblyReference.cache
+C:\Users\Donald\Desktop\VB\Lab4\Lab4\obj\x86\Debug\Lab4.Resources.resources
+C:\Users\Donald\Desktop\VB\Lab4\Lab4\obj\x86\Debug\Lab4.vbproj.GenerateResource.Cache
+C:\Users\Donald\Desktop\VB\Lab4\Lab4\obj\x86\Debug\Lab4.xml

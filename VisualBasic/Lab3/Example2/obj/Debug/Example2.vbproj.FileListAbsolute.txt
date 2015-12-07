@@ -1,0 +1,10 @@
+C:\Users\Donald\Desktop\VB\Lab3\Example2\bin\Debug\Example2.exe.config
+C:\Users\Donald\Desktop\VB\Lab3\Example2\bin\Debug\Example2.exe
+C:\Users\Donald\Desktop\VB\Lab3\Example2\bin\Debug\Example2.pdb
+C:\Users\Donald\Desktop\VB\Lab3\Example2\bin\Debug\Example2.xml
+C:\Users\Donald\Desktop\VB\Lab3\Example2\obj\Debug\Example2.vbprojResolveAssemblyReference.cache
+C:\Users\Donald\Desktop\VB\Lab3\Example2\obj\Debug\Example2.Resources.resources
+C:\Users\Donald\Desktop\VB\Lab3\Example2\obj\Debug\Example2.vbproj.GenerateResource.Cache
+C:\Users\Donald\Desktop\VB\Lab3\Example2\obj\Debug\Example2.exe
+C:\Users\Donald\Desktop\VB\Lab3\Example2\obj\Debug\Example2.xml
+C:\Users\Donald\Desktop\VB\Lab3\Example2\obj\Debug\Example2.pdb

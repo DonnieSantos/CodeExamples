@@ -1,0 +1,9 @@
+C:\Users\Donald\Desktop\VB\Lab5\LoopsAndArrays\bin\Debug\LoopsAndArrays.exe
+C:\Users\Donald\Desktop\VB\Lab5\LoopsAndArrays\bin\Debug\LoopsAndArrays.pdb
+C:\Users\Donald\Desktop\VB\Lab5\LoopsAndArrays\bin\Debug\LoopsAndArrays.xml
+C:\Users\Donald\Desktop\VB\Lab5\LoopsAndArrays\obj\Debug\LoopsAndArrays.vbprojResolveAssemblyReference.cache
+C:\Users\Donald\Desktop\VB\Lab5\LoopsAndArrays\obj\Debug\LoopsAndArrays.Resources.resources
+C:\Users\Donald\Desktop\VB\Lab5\LoopsAndArrays\obj\Debug\LoopsAndArrays.vbproj.GenerateResource.Cache
+C:\Users\Donald\Desktop\VB\Lab5\LoopsAndArrays\obj\Debug\LoopsAndArrays.exe
+C:\Users\Donald\Desktop\VB\Lab5\LoopsAndArrays\obj\Debug\LoopsAndArrays.xml
+C:\Users\Donald\Desktop\VB\Lab5\LoopsAndArrays\obj\Debug\LoopsAndArrays.pdb
