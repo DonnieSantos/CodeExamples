@@ -1,0 +1,5 @@
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ShapeComposition\bin\Debug\ShapeComposition.dll
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ShapeComposition\bin\Debug\ShapeComposition.pdb
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ShapeComposition\obj\Debug\ShapeComposition.csprojResolveAssemblyReference.cache
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ShapeComposition\obj\Debug\ShapeComposition.dll
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ShapeComposition\obj\Debug\ShapeComposition.pdb

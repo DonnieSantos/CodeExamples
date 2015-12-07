@@ -1,0 +1,10 @@
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ChessCompositionTests\bin\Debug\ChessCompositionTests.dll
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ChessCompositionTests\bin\Debug\ChessCompositionTests.pdb
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ChessCompositionTests\bin\Debug\ChessComposition.dll
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ChessCompositionTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ChessCompositionTests\bin\Debug\ShapeComposition.dll
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ChessCompositionTests\bin\Debug\ChessComposition.pdb
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ChessCompositionTests\bin\Debug\ShapeComposition.pdb
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ChessCompositionTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ChessCompositionTests\obj\Debug\ChessCompositionTests.dll
+C:\Users\Donald\Desktop\CodeExamples\CompositionTechniques\ChessCompositionTests\obj\Debug\ChessCompositionTests.pdb
