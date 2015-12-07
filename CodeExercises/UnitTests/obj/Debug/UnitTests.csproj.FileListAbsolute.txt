@@ -1,0 +1,15 @@
+C:\Users\Donnie\Desktop\CodingExercises\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\Donnie\Desktop\CodingExercises\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\Donnie\Desktop\CodingExercises\UnitTests\bin\Debug\Exercise2.dll
+C:\Users\Donnie\Desktop\CodingExercises\UnitTests\bin\Debug\Exercise2.pdb
+C:\Users\Donnie\Desktop\CodingExercises\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Donnie\Desktop\CodingExercises\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\Donnie\Desktop\CodingExercises\UnitTests\obj\Debug\UnitTests.pdb
+D:\!! Code\CityState\UnitTests\bin\Debug\UnitTests.dll
+D:\!! Code\CityState\UnitTests\bin\Debug\UnitTests.pdb
+D:\!! Code\CityState\UnitTests\bin\Debug\Exercise2.dll
+D:\!! Code\CityState\UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\!! Code\CityState\UnitTests\bin\Debug\Exercise2.pdb
+D:\!! Code\CityState\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+D:\!! Code\CityState\UnitTests\obj\Debug\UnitTests.dll
+D:\!! Code\CityState\UnitTests\obj\Debug\UnitTests.pdb

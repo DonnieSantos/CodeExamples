@@ -1,0 +1,13 @@
+C:\Users\Donnie\Desktop\CodingExercises\Exercise1\bin\Debug\Exercise1.exe
+C:\Users\Donnie\Desktop\CodingExercises\Exercise1\bin\Debug\Exercise1.pdb
+C:\Users\Donnie\Desktop\CodingExercises\Exercise1\obj\x86\Debug\Exercise1.exe
+C:\Users\Donnie\Desktop\CodingExercises\Exercise1\obj\x86\Debug\Exercise1.pdb
+D:\!! Code\CodingExercises\Exercise1\obj\x86\Debug\Exercise1.exe
+D:\!! Code\CodingExercises\Exercise1\obj\x86\Debug\Exercise1.pdb
+D:\!! Code\CodingExercises\Exercise1\bin\Debug\Exercise1.exe
+D:\!! Code\CodingExercises\Exercise1\bin\Debug\Exercise1.pdb
+D:\!! Code\CodingExercises\Exercise1\obj\x86\Debug\Exercise1.csprojResolveAssemblyReference.cache
+D:\!! Code\CityState\Exercise1\bin\Debug\Exercise1.exe
+D:\!! Code\CityState\Exercise1\bin\Debug\Exercise1.pdb
+D:\!! Code\CityState\Exercise1\obj\x86\Debug\Exercise1.exe
+D:\!! Code\CityState\Exercise1\obj\x86\Debug\Exercise1.pdb

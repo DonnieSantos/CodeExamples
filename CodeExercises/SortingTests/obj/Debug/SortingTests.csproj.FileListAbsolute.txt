@@ -1,0 +1,19 @@
+C:\Users\Donnie\Desktop\CityState\SortingTests\obj\Debug\SortingTests.csprojResolveAssemblyReference.cache
+C:\Users\Donnie\Desktop\CityState\SortingTests\bin\Debug\SortingTests.dll
+C:\Users\Donnie\Desktop\CityState\SortingTests\bin\Debug\SortingTests.pdb
+C:\Users\Donnie\Desktop\CityState\SortingTests\bin\Debug\Sorting.dll
+C:\Users\Donnie\Desktop\CityState\SortingTests\bin\Debug\Sorting.pdb
+C:\Users\Donnie\Desktop\CityState\SortingTests\obj\Debug\SortingTests.dll
+C:\Users\Donnie\Desktop\CityState\SortingTests\obj\Debug\SortingTests.pdb
+C:\Users\Donnie\Desktop\CityState\SortingTests\bin\Debug\Tron.dll
+C:\Users\Donnie\Desktop\CityState\SortingTests\bin\Debug\Tron.pdb
+D:\!! Code\CityState\SortingTests\bin\Debug\SortingTests.dll
+D:\!! Code\CityState\SortingTests\bin\Debug\SortingTests.pdb
+D:\!! Code\CityState\SortingTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\!! Code\CityState\SortingTests\bin\Debug\Sorting.dll
+D:\!! Code\CityState\SortingTests\bin\Debug\Tron.dll
+D:\!! Code\CityState\SortingTests\bin\Debug\Sorting.pdb
+D:\!! Code\CityState\SortingTests\bin\Debug\Tron.pdb
+D:\!! Code\CityState\SortingTests\obj\Debug\SortingTests.csprojResolveAssemblyReference.cache
+D:\!! Code\CityState\SortingTests\obj\Debug\SortingTests.dll
+D:\!! Code\CityState\SortingTests\obj\Debug\SortingTests.pdb

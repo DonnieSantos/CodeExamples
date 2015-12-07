@@ -1,0 +1,8 @@
+C:\Users\Donnie\Desktop\CodingExercises\Exercise2\bin\Debug\Exercise2.dll
+C:\Users\Donnie\Desktop\CodingExercises\Exercise2\bin\Debug\Exercise2.pdb
+C:\Users\Donnie\Desktop\CodingExercises\Exercise2\obj\Debug\Exercise2.dll
+C:\Users\Donnie\Desktop\CodingExercises\Exercise2\obj\Debug\Exercise2.pdb
+D:\!! Code\CityState\Exercise2\bin\Debug\Exercise2.dll
+D:\!! Code\CityState\Exercise2\bin\Debug\Exercise2.pdb
+D:\!! Code\CityState\Exercise2\obj\Debug\Exercise2.dll
+D:\!! Code\CityState\Exercise2\obj\Debug\Exercise2.pdb
