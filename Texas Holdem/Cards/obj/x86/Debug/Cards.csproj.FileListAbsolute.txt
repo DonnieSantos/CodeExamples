@@ -1,5 +1,0 @@
-D:\Side Projects\Cards\Cards\bin\Debug\Cards.exe
-D:\Side Projects\Cards\Cards\bin\Debug\Cards.pdb
-D:\Side Projects\Cards\Cards\obj\x86\Debug\Cards.csprojResolveAssemblyReference.cache
-D:\Side Projects\Cards\Cards\obj\x86\Debug\Cards.exe
-D:\Side Projects\Cards\Cards\obj\x86\Debug\Cards.pdb

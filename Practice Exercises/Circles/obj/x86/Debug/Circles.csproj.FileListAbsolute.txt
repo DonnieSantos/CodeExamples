@@ -1,8 +1,0 @@
-C:\Users\Donnie\Desktop\CityState\Circles\bin\Debug\Circles.exe
-C:\Users\Donnie\Desktop\CityState\Circles\bin\Debug\Circles.pdb
-C:\Users\Donnie\Desktop\CityState\Circles\obj\x86\Debug\Circles.exe
-C:\Users\Donnie\Desktop\CityState\Circles\obj\x86\Debug\Circles.pdb
-D:\!! Code\CityState\Circles\bin\Debug\Circles.exe
-D:\!! Code\CityState\Circles\bin\Debug\Circles.pdb
-D:\!! Code\CityState\Circles\obj\x86\Debug\Circles.exe
-D:\!! Code\CityState\Circles\obj\x86\Debug\Circles.pdb
