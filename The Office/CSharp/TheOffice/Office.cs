@@ -4,8 +4,8 @@ namespace TheOffice
 {
     public class Office
     {
-        public List<Worker> Workers { get; set; }
         public List<List<Room>> Rooms { get; set; }
+        private List<Worker> Workers { get; set; }        
 
         public Office()
         {

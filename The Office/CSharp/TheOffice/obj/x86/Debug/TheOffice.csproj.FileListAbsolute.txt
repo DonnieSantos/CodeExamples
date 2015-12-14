@@ -1,5 +1,0 @@
-D:\!! Code\School\TheOffice\TheOffice\bin\Debug\TheOffice.exe
-D:\!! Code\School\TheOffice\TheOffice\bin\Debug\TheOffice.pdb
-D:\!! Code\School\TheOffice\TheOffice\obj\x86\Debug\TheOffice.csprojResolveAssemblyReference.cache
-D:\!! Code\School\TheOffice\TheOffice\obj\x86\Debug\TheOffice.exe
-D:\!! Code\School\TheOffice\TheOffice\obj\x86\Debug\TheOffice.pdb

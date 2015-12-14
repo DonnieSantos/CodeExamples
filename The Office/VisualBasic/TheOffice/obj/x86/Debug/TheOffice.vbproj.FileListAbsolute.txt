@@ -1,9 +1,0 @@
-D:\!! Code\School\Office_Donnie\TheOffice\bin\Debug\TheOffice.exe
-D:\!! Code\School\Office_Donnie\TheOffice\bin\Debug\TheOffice.pdb
-D:\!! Code\School\Office_Donnie\TheOffice\bin\Debug\TheOffice.xml
-D:\!! Code\School\Office_Donnie\TheOffice\obj\x86\Debug\TheOffice.vbprojResolveAssemblyReference.cache
-D:\!! Code\School\Office_Donnie\TheOffice\obj\x86\Debug\TheOffice.Resources.resources
-D:\!! Code\School\Office_Donnie\TheOffice\obj\x86\Debug\TheOffice.vbproj.GenerateResource.Cache
-D:\!! Code\School\Office_Donnie\TheOffice\obj\x86\Debug\TheOffice.exe
-D:\!! Code\School\Office_Donnie\TheOffice\obj\x86\Debug\TheOffice.xml
-D:\!! Code\School\Office_Donnie\TheOffice\obj\x86\Debug\TheOffice.pdb
