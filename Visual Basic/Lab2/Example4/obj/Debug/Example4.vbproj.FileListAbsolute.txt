@@ -1,9 +1,0 @@
-C:\Users\Donald\Desktop\VB\Lab2\Example4\obj\Debug\Example4.Resources.resources
-C:\Users\Donald\Desktop\VB\Lab2\Example4\obj\Debug\Example4.vbproj.GenerateResource.Cache
-C:\Users\Donald\Desktop\VB\Lab2\Example4\bin\Debug\Example4.exe
-C:\Users\Donald\Desktop\VB\Lab2\Example4\bin\Debug\Example4.pdb
-C:\Users\Donald\Desktop\VB\Lab2\Example4\bin\Debug\Example4.xml
-C:\Users\Donald\Desktop\VB\Lab2\Example4\obj\Debug\Example4.exe
-C:\Users\Donald\Desktop\VB\Lab2\Example4\obj\Debug\Example4.xml
-C:\Users\Donald\Desktop\VB\Lab2\Example4\obj\Debug\Example4.pdb
-C:\Users\Donald\Desktop\VB\Lab2\Example4\obj\Debug\Example4.vbprojResolveAssemblyReference.cache
