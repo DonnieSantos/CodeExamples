@@ -60,3 +60,11 @@ a:active { color: white; }
 {
 	padding: 10px;
 }
+
+.quote
+{
+	font-style: italic;
+	font-family: 'Calibri';
+	font-size: 18px;
+	margin-left: 10px;
+}
