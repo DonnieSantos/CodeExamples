@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>121e1f4e-1a95-425f-bba5-5540833e756a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>TownOfSalem.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>TownOfSalem</Name>
+    <RootNamespace>TownOfSalem</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Alignments\Alignment.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Alignments\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Names\DefaultNames.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Names\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Roles\Framer.py" />
+    <Compile Include="Roles\Arsonist.py" />
+    <Compile Include="Roles\Amnesiac.py" />
+    <Compile Include="Roles\Werewolf.py" />
+    <Compile Include="Roles\SerialKiller.py" />
+    <Compile Include="Roles\Survivor.py" />
+    <Compile Include="Roles\Mafioso.py" />
+    <Compile Include="Roles\Godfather.py" />
+    <Compile Include="Roles\Lookout.py" />
+    <Compile Include="Roles\Escort.py" />
+    <Compile Include="Roles\Doctor.py" />
+    <Compile Include="Roles\Bodyguard.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Roles\Executioner.py" />
+    <Compile Include="Roles\Sheriff.py" />
+    <Compile Include="Roles\Witch.py" />
+    <Compile Include="Roles\Jester.py" />
+    <Compile Include="Roles\RoleGenerator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Roles\Jailor.py" />
+    <Compile Include="Roles\Vigilante.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Roles\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Roles\Investigator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Player.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Role.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Town.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TownOfSalem.py" />
+    <Compile Include="Roles\Veteran.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Alignments\" />
+    <Folder Include="Names\" />
+    <Folder Include="Roles\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
