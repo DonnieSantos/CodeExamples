@@ -1,12 +1,7 @@
 ﻿namespace ChessComposition.Rules
 {
-    public class CannotMoveOffBoard : IRule
+    public class CannotMoveOffBoard : IRuleIllegal
     {
-        public bool IsLegalMove(int x, int y, int dx, int dy)
-        {
-            return false;
-        }
-
         public bool IsIllegalMove(int x, int y, int dx, int dy)
         {
             return dx >= 8 || dy >= 8;

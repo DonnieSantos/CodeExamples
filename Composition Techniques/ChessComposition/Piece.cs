@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using ChessComposition.Rules;
+﻿using ChessComposition.Rules;
+using System.Collections.Generic;
 
 namespace ChessComposition
 {
@@ -7,31 +7,37 @@ namespace ChessComposition
     {
         public int X { get; set; }
         public int Y { get; set; }
-        public List<IRule> Rules { get; set; }
+        public List<IRuleLegal> LegalRules { get; set; }
+        public List<IRuleIllegal> IllegalRules { get; set; }
 
-        public Piece(int x, int y, List<IRule> rules)
+        public Piece(int x, int y, List<IRuleLegal> legalRules, List<IRuleIllegal> illegalRules)
         {
-            this.X = x;
-            this.Y = y;
-            this.Rules = rules;
+            X = x;
+            Y = y;
+            LegalRules = legalRules;
+            IllegalRules = illegalRules;
         }
 
         public bool Move(int dx, int dy)
         {
-            foreach (IRule rule in this.Rules)
+            // No Illegal Rules can be true.
+
+            foreach (IRuleIllegal rule in IllegalRules)
             {
-                if (rule.IsIllegalMove(this.X, this.Y, dx, dy))
+                if (rule.IsIllegalMove(X, Y, dx, dy))
                 {
                     return false;
                 }
             }
 
-            foreach (IRule rule in this.Rules)
+            // At least one legal rule must be true.
+
+            foreach (IRuleLegal rule in LegalRules)
             {
-                if (rule.IsLegalMove(this.X, this.Y, dx, dy))
+                if (rule.IsLegalMove(X, Y, dx, dy))
                 {
-                    this.X = dx;
-                    this.Y = dy;
+                    X = dx;
+                    Y = dy;
                     return true;
                 }
             }

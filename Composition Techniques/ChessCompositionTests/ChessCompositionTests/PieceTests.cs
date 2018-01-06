@@ -29,27 +29,25 @@ namespace ChessCompositionTests
             // We get polymoprhism, code reuse, and dynamic run-time behavior modification.
             // All this is accomplished without any of the coupling of inheritance.
 
-            _rook = new Piece(0, 0, new List<IRule>()
-            {
-                new CanMoveOrthogonal(),
-                new CannotMoveOffBoard(),
-                new CannotMoveOntoSameSpace()
-            });
+            // Note: I'm intentionally adding each rule manually with "Add".
+            // It would be better to use a Fluent Interface, but I chose not to
+            // so the code would be more accessible for beginners.
 
-            _bishop = new Piece(0, 0, new List<IRule>()
-            {
-                new CanMoveDiagonal(),
-                new CannotMoveOffBoard(),
-                new CannotMoveOntoSameSpace()
-            });
+            _rook = new Piece(0, 0, new List<IRuleLegal>(), new List<IRuleIllegal>());
+            _rook.LegalRules.Add(new CanMoveOrthogonal());
+            _rook.IllegalRules.Add(new CannotMoveOffBoard());
+            _rook.IllegalRules.Add(new CannotMoveOntoSameSpace());
 
-            _queen = new Piece(0, 0, new List<IRule>()
-            {
-                new CanMoveOrthogonal(),
-                new CanMoveDiagonal(),
-                new CannotMoveOffBoard(),
-                new CannotMoveOntoSameSpace()
-            });
+            _bishop = new Piece(0, 0, new List<IRuleLegal>(), new List<IRuleIllegal>());
+            _bishop.LegalRules.Add(new CanMoveDiagonal());
+            _bishop.IllegalRules.Add(new CannotMoveOffBoard());
+            _bishop.IllegalRules.Add(new CannotMoveOntoSameSpace());
+
+            _queen = new Piece(0, 0, new List<IRuleLegal>(), new List<IRuleIllegal>());
+            _queen.LegalRules.Add(new CanMoveOrthogonal());
+            _queen.LegalRules.Add(new CanMoveDiagonal());
+            _queen.IllegalRules.Add(new CannotMoveOffBoard());
+            _queen.IllegalRules.Add(new CannotMoveOntoSameSpace());
         }
 
         ///////////////////////////////////////////////////////////////////////////////////////////
