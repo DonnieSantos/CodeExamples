@@ -40,8 +40,8 @@ $(document).ready(function () {
             'url': "http://localhost:53402/api/students",
             'data': payloadJsonString,
             'dataType': 'json',
-            'success': function () {
-                alert("Post Response: " + response);
+            complete: function (xhr, textStatus) {
+                alert("Response Code: " + xhr.status);
             }
         });
     });

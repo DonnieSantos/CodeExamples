@@ -15,6 +15,13 @@ namespace BackEndAPI.Controllers
             return Program.Students;
         }
 
+        [HttpGet("{id}")]
+        [EnableCors("AllowAll")]
+        public Student Get(int id)
+        {
+            return Program.Students[id];
+        }
+
         [HttpPost]
         [EnableCors("AllowAll")]
         public void Post([FromBody]IEnumerable<Student> students)
