@@ -20,6 +20,21 @@ $(document).ready(function () {
         }
     });
 
+    $(".student-get").click(function () {
+        $.ajax({
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            'type': 'GET',
+            'url': "http://localhost:53402/api/students",
+            'dataType': 'json',
+            complete: function (xhr, textStatus) {
+                alert("Response Code: " + xhr.status);
+            }
+        });
+    });
+
     $(".student-post").click(function () {
 
         var payloadJsonObject = [

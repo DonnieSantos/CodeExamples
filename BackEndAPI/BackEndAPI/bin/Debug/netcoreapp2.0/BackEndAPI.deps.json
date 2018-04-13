@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "15ecfb8f5d8d1a9197c2ec73dc356cef4d01908e"
+    "signature": "d631d8516eb5dc8d5b6cf7da9c9e379153e651a3"
   },
   "compilationOptions": {
     "defines": [
@@ -24,8 +24,11 @@
       "BackEndAPI/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.6",
+          "Microsoft.AspNetCore.Session": "2.0.2",
+          "Microsoft.Extensions.Caching.Memory": "2.0.1",
           "Microsoft.NETCore.App": "2.0.0",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "11.0.2",
+          "Polly.Caching.IDistributedCache": "1.0.4"
         },
         "runtime": {
           "BackEndAPI.dll": {}
@@ -2336,6 +2339,30 @@
         },
         "compile": {
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "Polly/5.4.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Polly.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.1/Polly.dll": {}
+        }
+      },
+      "Polly.Caching.IDistributedCache/1.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "2.0.1",
+          "NETStandard.Library": "2.0.0",
+          "Polly": "5.4.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Polly.Caching.IDistributedCache.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.1/Polly.Caching.IDistributedCache.dll": {}
         }
       },
       "Remotion.Linq/2.1.1": {
@@ -5058,6 +5085,20 @@
       "sha512": "sha512-5PYT/IqQ+UK31AmZiSS102R6EsTo+LGTSI8bp7WAUqDKaF4wHXD8U9u4WxTI1vc64tYi++8p3dk3WWNqPFgldw==",
       "path": "newtonsoft.json.bson/1.0.1",
       "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
+    },
+    "Polly/5.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n/l80Uxq+1dZrQnUp6iv6s10H7EyvwaZi37LUEv9/fepN5fXfJEAKw9/f0dE4pTkrYxGarJNtoIwC8SYWXAxBQ==",
+      "path": "polly/5.4.0",
+      "hashPath": "polly.5.4.0.nupkg.sha512"
+    },
+    "Polly.Caching.IDistributedCache/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sEIkCiG+T/8OqJ7kA050YCXwEbwkwZIFf1clE/83JFD7d2PPuktHI9g0/DehqDBJP1p5mqfGZTwigabxduGupQ==",
+      "path": "polly.caching.idistributedcache/1.0.4",
+      "hashPath": "polly.caching.idistributedcache.1.0.4.nupkg.sha512"
     },
     "Remotion.Linq/2.1.1": {
       "type": "package",

@@ -2707,6 +2707,32 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "Polly/5.4.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Polly.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Polly.dll": {}
+        }
+      },
+      "Polly.Caching.IDistributedCache/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "1.1.2",
+          "NETStandard.Library": "1.6.1",
+          "Polly": "5.4.0"
+        },
+        "compile": {
+          "lib/netstandard1.1/Polly.Caching.IDistributedCache.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Polly.Caching.IDistributedCache.dll": {}
+        }
+      },
       "Remotion.Linq/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -7466,6 +7492,35 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "Polly/5.4.0": {
+      "sha512": "n/l80Uxq+1dZrQnUp6iv6s10H7EyvwaZi37LUEv9/fepN5fXfJEAKw9/f0dE4pTkrYxGarJNtoIwC8SYWXAxBQ==",
+      "type": "package",
+      "path": "polly/5.4.0",
+      "files": [
+        "lib/net45/Polly.dll",
+        "lib/net45/Polly.pdb",
+        "lib/net45/Polly.xml",
+        "lib/netstandard1.1/Polly.deps.json",
+        "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.pdb",
+        "lib/netstandard1.1/Polly.xml",
+        "polly.5.4.0.nupkg.sha512",
+        "polly.nuspec"
+      ]
+    },
+    "Polly.Caching.IDistributedCache/1.0.4": {
+      "sha512": "sEIkCiG+T/8OqJ7kA050YCXwEbwkwZIFf1clE/83JFD7d2PPuktHI9g0/DehqDBJP1p5mqfGZTwigabxduGupQ==",
+      "type": "package",
+      "path": "polly.caching.idistributedcache/1.0.4",
+      "files": [
+        "lib/netstandard1.1/Polly.Caching.IDistributedCache.deps.json",
+        "lib/netstandard1.1/Polly.Caching.IDistributedCache.dll",
+        "lib/netstandard1.1/Polly.Caching.IDistributedCache.pdb",
+        "lib/netstandard1.1/Polly.Caching.IDistributedCache.xml",
+        "polly.caching.idistributedcache.1.0.4.nupkg.sha512",
+        "polly.caching.idistributedcache.nuspec"
       ]
     },
     "Remotion.Linq/2.1.1": {
@@ -12268,8 +12323,11 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.6",
+      "Microsoft.AspNetCore.Session >= 2.0.2",
+      "Microsoft.Extensions.Caching.Memory >= 2.0.1",
       "Microsoft.NETCore.App >= 2.0.0",
-      "Newtonsoft.Json >= 11.0.2"
+      "Newtonsoft.Json >= 11.0.2",
+      "Polly.Caching.IDistributedCache >= 1.0.4"
     ]
   },
   "packageFolders": {
@@ -12320,6 +12378,14 @@
             "target": "Package",
             "version": "[2.0.6, )"
           },
+          "Microsoft.AspNetCore.Session": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "Microsoft.Extensions.Caching.Memory": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.0.0, )",
@@ -12328,6 +12394,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[11.0.2, )"
+          },
+          "Polly.Caching.IDistributedCache": {
+            "target": "Package",
+            "version": "[1.0.4, )"
           }
         },
         "imports": [
