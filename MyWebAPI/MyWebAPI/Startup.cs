@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 
 namespace MyWebAPI
 {
@@ -20,13 +15,18 @@ namespace MyWebAPI
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        // Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddSession(options =>
+            {
+                options.Cookie.Name = ".MyWebAPI.Session";
+                options.IdleTimeout = TimeSpan.FromSeconds(600);
+            });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        // Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
@@ -34,6 +34,7 @@ namespace MyWebAPI
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseSession();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
