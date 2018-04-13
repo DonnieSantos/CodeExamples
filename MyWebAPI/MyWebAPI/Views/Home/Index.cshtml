@@ -1,0 +1,86 @@
+﻿<html>
+
+    <head>
+        <title>MyWebAPI Test Client</title>
+        <link rel="shortcut icon" href="">
+    </head>
+
+    <body>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script>
+
+            $(document).ready(function () {
+
+                $(".student-name").focusin(function () {
+                    $(".student-name").val("");
+                });
+
+                $(".student-name").focusout(function () {
+                    if ($(".student-name").val().length == 0) {
+                        $(".student-name").val(" [ Student Name ]");
+                    }
+                });
+
+                $(".student-id").focusin(function () {
+                    $(".student-id").val("");
+                });
+
+                $(".student-id").focusout(function () {
+                    if ($(".student-id").val().length == 0) {
+                        $(".student-id").val(" [ Student ID ]");
+                    }
+                });
+
+                $(".student-get").click(function () {
+                    $.ajax({
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        'type': 'GET',
+                        'url': "api/students",
+                        'dataType': 'json',
+                        complete: function (xhr, textStatus) {
+                            alert("Response Code: " + xhr.status);
+                        }
+                    });
+                });
+
+                $(".student-post").click(function () {
+
+                    var payloadJsonObject = [
+                        {
+                            "name": $(".student-name").val(),
+                            "id": parseInt($(".student-id").val())
+                        }
+                    ];
+
+                    var payloadJsonString = JSON.stringify(payloadJsonObject);
+
+                    $.ajax({
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        'type': 'POST',
+                        'url': "api/students",
+                        'data': payloadJsonString,
+                        'dataType': 'json',
+                        complete: function (xhr, textStatus) {
+                            alert("Response Code: " + xhr.status);
+                        }
+                    });
+                });
+            });
+
+        </script>
+
+        <input class="student-name" type="text" value=" [ Student Name ]" /><br />
+        <input class="student-id" type="text" value=" [ Student ID ]" /><br />
+        <input class="student-get" type="button" value="API Get" />
+        <input class="student-post" type="button" value="API Post" />
+    </body>
+
+</html>

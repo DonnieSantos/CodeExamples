@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Cors.Infrastructure;
 using System;
 
 public class Startup
@@ -32,22 +31,13 @@ public class Startup
     {
         // Add framework services.
         services.AddApplicationInsightsTelemetry(Configuration);
-
-        services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
         services.AddMvc();
-        services.AddDistributedMemoryCache();
-
-        services.AddSession(options =>
-        {
-            options.Cookie.Name = ".BackEndAPI.Session";
-            options.IdleTimeout = TimeSpan.FromSeconds(6000);
-        });
-
-        var corsBuilder = new CorsPolicyBuilder();
-        corsBuilder.AllowAnyHeader();
-        corsBuilder.AllowAnyMethod();
-        corsBuilder.AllowAnyOrigin();
-        corsBuilder.AllowCredentials();
+        //services.AddDistributedMemoryCache();
+        //services.AddSession(options =>
+        //{
+        //    options.Cookie.Name = ".BackEndAPI.Session";
+        //    options.IdleTimeout = TimeSpan.FromSeconds(6000);
+        //});
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline
@@ -56,13 +46,12 @@ public class Startup
         loggerFactory.AddConsole(Configuration.GetSection("Logging"));
         loggerFactory.AddDebug();
 
-        app.UseCors("AllowAll");
         app.UseSession();
         app.UseMvc(routes =>
         {
             routes.MapRoute(
                 name: "default",
                 template: "{controller=Home}/{action=Index}/{id?}");
-        });       
+        });
     }
 }

@@ -27,7 +27,7 @@ $(document).ready(function () {
                 'Content-Type': 'application/json'
             },
             'type': 'GET',
-            'url': "http://localhost:53402/api/students",
+            'url': "api/students",
             'dataType': 'json',
             complete: function (xhr, textStatus) {
                 alert("Response Code: " + xhr.status);
@@ -52,7 +52,7 @@ $(document).ready(function () {
                 'Content-Type': 'application/json'
             },
             'type': 'POST',
-            'url': "http://localhost:53402/api/students",
+            'url': "api/students",
             'data': payloadJsonString,
             'dataType': 'json',
             complete: function (xhr, textStatus) {

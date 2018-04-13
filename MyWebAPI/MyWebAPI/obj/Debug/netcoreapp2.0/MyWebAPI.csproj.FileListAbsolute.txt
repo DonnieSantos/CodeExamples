@@ -1,0 +1,11 @@
+D:\Users\Donnie\Desktop\MyWebAPI\MyWebAPI\bin\Debug\netcoreapp2.0\MyWebAPI.deps.json
+D:\Users\Donnie\Desktop\MyWebAPI\MyWebAPI\bin\Debug\netcoreapp2.0\MyWebAPI.runtimeconfig.json
+D:\Users\Donnie\Desktop\MyWebAPI\MyWebAPI\bin\Debug\netcoreapp2.0\MyWebAPI.runtimeconfig.dev.json
+D:\Users\Donnie\Desktop\MyWebAPI\MyWebAPI\bin\Debug\netcoreapp2.0\MyWebAPI.dll
+D:\Users\Donnie\Desktop\MyWebAPI\MyWebAPI\bin\Debug\netcoreapp2.0\MyWebAPI.pdb
+D:\Users\Donnie\Desktop\MyWebAPI\MyWebAPI\obj\Debug\netcoreapp2.0\MyWebAPI.csproj.CoreCompileInputs.cache
+D:\Users\Donnie\Desktop\MyWebAPI\MyWebAPI\obj\Debug\netcoreapp2.0\MyWebAPI.AssemblyInfoInputs.cache
+D:\Users\Donnie\Desktop\MyWebAPI\MyWebAPI\obj\Debug\netcoreapp2.0\MyWebAPI.AssemblyInfo.cs
+D:\Users\Donnie\Desktop\MyWebAPI\MyWebAPI\obj\Debug\netcoreapp2.0\MyWebAPI.dll
+D:\Users\Donnie\Desktop\MyWebAPI\MyWebAPI\obj\Debug\netcoreapp2.0\MyWebAPI.pdb
+D:\Users\Donnie\Desktop\MyWebAPI\MyWebAPI\obj\Debug\netcoreapp2.0\MyWebAPI.csprojResolveAssemblyReference.cache

@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BackEndAPI.Controllers
@@ -7,21 +6,20 @@ namespace BackEndAPI.Controllers
     [Route("api/[controller]")]
     public class StudentsController : Controller
     {
-        public static string SESSION_KEY = "TEST";
+        //public static string SESSION_KEY = "TEST";
 
         [HttpGet]
-        [EnableCors("AllowAll")]
         public IEnumerable<Student> Get()
         {
-            IEnumerable<Student> students = HttpContext.Session.Get<IEnumerable<Student>>(SESSION_KEY);
-            return students;
+            return null;
+            //IEnumerable<Student> students = HttpContext.Session.Get<IEnumerable<Student>>(SESSION_KEY);
+            //return students;
         }
 
         [HttpPost]
-        [EnableCors("AllowAll")]
         public void Post([FromBody]IEnumerable<Student> students)
         {
-            HttpContext.Session.Set(SESSION_KEY, students);
+            //HttpContext.Session.Set(SESSION_KEY, students);
         }
     }
 }
