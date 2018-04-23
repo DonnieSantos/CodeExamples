@@ -1,16 +1,37 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
+using System.Collections.Generic;
 
-public static class SessionExtensions
+namespace MyWebAPI.Controllers
 {
-    public static void Set<T>(this ISession session, string key, T value)
+    public static class SessionExtensions
     {
-        session.SetString(key, JsonConvert.SerializeObject(value));
-    }
+        public static void Set<T>(this ISession session, string key, T value)
+        {
+            session.SetString(key, JsonConvert.SerializeObject(value));
+        }
 
-    public static T Get<T>(this ISession session, string key)
-    {
-        var value = session.GetString(key);
-        return value == null ? default(T) : JsonConvert.DeserializeObject<T>(value);
+        public static T Get<T>(this ISession session, string key)
+        {
+            var value = session.GetString(key);
+            return value == null ? default(T) : JsonConvert.DeserializeObject<T>(value);
+        }
+
+        public static List<Student> GetStudents(this ISession session)
+        {
+            var students = session.Get<List<Student>>(SessionKey.Students);
+
+            if (students == null)
+            {
+                session.ClearStudents();
+            }
+
+            return session.Get<List<Student>>(SessionKey.Students);
+        }
+
+        public static void ClearStudents(this ISession session)
+        {
+            session.Set<IList<Student>>(SessionKey.Students, new List<Student>());
+        }
     }
 }

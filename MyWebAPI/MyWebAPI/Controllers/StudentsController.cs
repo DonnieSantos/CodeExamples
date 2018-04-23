@@ -1,23 +1,36 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
+using System.Linq;
 
 namespace MyWebAPI.Controllers
 {
     [Route("api/[controller]")]
     public class StudentsController : Controller
     {
-        private const string sessionKey = "students";
+        public string MinimumGrade
+        {
+            get { return HttpContext.Request.Query["minimumGrade"]; }
+        }
 
         [HttpGet]
-        public IEnumerable<Student> Get()
+        public IList<Student> Get()
         {
-            return HttpContext.Session.Get<IEnumerable<Student>>(sessionKey);
+            if (string.IsNullOrEmpty(MinimumGrade)) return HttpContext.Session.GetStudents();
+            int minimumGrade = int.Parse(HttpContext.Request.Query["minimumGrade"].ToString());
+            return HttpContext.Session.GetStudents().Where(student => { return student.Grade >= minimumGrade; }).ToList();
+        }
+
+        [HttpGet("{index}", Name = "Get")]
+        public Student Get(int index)
+        {
+            return HttpContext.Session.GetStudents()[index];
         }
 
         [HttpPost]
-        public void Post([FromBody]IEnumerable<Student> students)
+        public void Post([FromBody]IList<Student> students)
         {
-            HttpContext.Session.Set(sessionKey, students);
+            HttpContext.Session.ClearStudents();
         }
     }
 }
