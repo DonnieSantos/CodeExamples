@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Board.cs" />
     <Compile Include="Card.cs" />
-    <Compile Include="Column.cs" />
+    <Compile Include="Pile.cs" />
     <Compile Include="Deck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -4,3 +4,9 @@ C:\Users\C1011\Desktop\SpiderSolitaire\SpiderSolitaire\bin\Debug\SpiderSolitaire
 C:\Users\C1011\Desktop\SpiderSolitaire\SpiderSolitaire\obj\Debug\SpiderSolitaire.csprojResolveAssemblyReference.cache
 C:\Users\C1011\Desktop\SpiderSolitaire\SpiderSolitaire\obj\Debug\SpiderSolitaire.exe
 C:\Users\C1011\Desktop\SpiderSolitaire\SpiderSolitaire\obj\Debug\SpiderSolitaire.pdb
+C:\Users\C1011\Desktop\Local\SpiderSolitaire\SpiderSolitaire\bin\Debug\SpiderSolitaire.exe.config
+C:\Users\C1011\Desktop\Local\SpiderSolitaire\SpiderSolitaire\obj\Debug\SpiderSolitaire.exe
+C:\Users\C1011\Desktop\Local\SpiderSolitaire\SpiderSolitaire\obj\Debug\SpiderSolitaire.pdb
+C:\Users\C1011\Desktop\Local\SpiderSolitaire\SpiderSolitaire\bin\Debug\SpiderSolitaire.exe
+C:\Users\C1011\Desktop\Local\SpiderSolitaire\SpiderSolitaire\bin\Debug\SpiderSolitaire.pdb
+C:\Users\C1011\Desktop\Local\SpiderSolitaire\SpiderSolitaire\obj\Debug\SpiderSolitaire.csprojResolveAssemblyReference.cache

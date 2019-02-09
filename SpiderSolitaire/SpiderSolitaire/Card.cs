@@ -7,10 +7,18 @@
 
     public class Card
     {
+        public bool IsFaceUp { get; set; }
         public CardValue Value { get; set; }
+
         public Card(CardValue value)
         {
-            this.Value = value;
+            Value = value;
+            IsFaceUp = false;
+        }
+
+        public void setFaceUp(bool faceUp)
+        {
+            IsFaceUp = faceUp;
         }
     }
 }

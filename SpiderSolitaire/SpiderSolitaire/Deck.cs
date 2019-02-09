@@ -35,9 +35,10 @@ namespace SpiderSolitaire
             return this.Cards.Count == 0;
         }
 
-        public void Shuffle()
+        public Deck Shuffle()
         {
             this.Cards = this.Cards.OrderBy(a => Guid.NewGuid()).ToList();
+            return this;
         }
 
         public void Print()

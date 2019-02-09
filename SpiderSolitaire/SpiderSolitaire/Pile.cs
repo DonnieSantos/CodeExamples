@@ -2,18 +2,18 @@
 
 namespace SpiderSolitaire
 {
-    public class Column
+    public class Pile
     {
         public List<Card> Cards { get; set; }
 
-        public Column()
+        public Pile()
         {
-            this.Cards = new List<Card>();
+            Cards = new List<Card>();
         }
 
-        public bool isEmpty()
+        public void AddCard(Card card)
         {
-            return this.Cards.Count == 0;
+            Cards.Add(card);
         }
     }
 }
