@@ -9,7 +9,10 @@ namespace SpiderSolitaire
             var allCards = new List<Card>();
             allCards.AddRange(new Deck().Shuffle().Cards);
             allCards.AddRange(new Deck().Shuffle().Cards);
-            Board board = new Board(allCards);
+
+            UI.board = new Board(allCards);
+
+            UI.PlayerTurn();
         }
     }
 }

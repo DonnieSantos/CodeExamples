@@ -36,7 +36,7 @@ namespace SpiderSolitaire
 
         private void createFlops()
         {
-            for (int i=0; i<5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 Flops.Add(new Pile());
             }
@@ -44,7 +44,7 @@ namespace SpiderSolitaire
 
         private void dealToColumns(List<Card> allCards, int count, bool faceUp)
         {
-            for (int i=0; i<count; i++)
+            for (int i = 0; i < count; i++)
             {
                 var card = allCards[0];
                 card.setFaceUp(faceUp);
@@ -55,9 +55,9 @@ namespace SpiderSolitaire
 
         private void dealToFlopPiles(List<Card> allCards)
         {
-            for (int i=0; i<5; i++)
+            for (int i = 0; i < 5; i++)
             {
-                for (int j=0; j<10; j++)
+                for (int j = 0; j < 10; j++)
                 {
                     var card = allCards[0];
                     card.setFaceUp(false);
@@ -65,6 +65,32 @@ namespace SpiderSolitaire
                     Flops[i].AddCard(card);
                 }
             }
+        }
+
+        public int getDeepestColumn()
+        {
+            int deepestColumn = 0;
+
+            foreach (Pile column in Columns)
+            {
+                if (column.Cards.Count > deepestColumn)
+                {
+                    deepestColumn = column.Cards.Count;
+                }
+            }
+
+            return deepestColumn;
+        }
+
+        public bool isGameOver()
+        {
+            return false;
+        }
+
+        // State Mutating Method
+        public void temp()
+        {
+            Columns[0].Cards[5].Value = CardValue.sA;
         }
     }
 }

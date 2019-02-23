@@ -15,5 +15,10 @@ namespace SpiderSolitaire
         {
             Cards.Add(card);
         }
+
+        public void PrintCard(int index)
+        {
+            System.Console.Write(Cards[index].Value + " ");
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace SpiderSolitaire
 {
@@ -14,19 +14,19 @@ namespace SpiderSolitaire
 
             for (int i=0; i<4; i++)
             {
-                this.Cards.Add(new Card(CardValue.Ace));
-                this.Cards.Add(new Card(CardValue.Two));
-                this.Cards.Add(new Card(CardValue.Three));
-                this.Cards.Add(new Card(CardValue.Four));
-                this.Cards.Add(new Card(CardValue.Five));
-                this.Cards.Add(new Card(CardValue.Six));
-                this.Cards.Add(new Card(CardValue.Seven));
-                this.Cards.Add(new Card(CardValue.Eight));
-                this.Cards.Add(new Card(CardValue.Nine));
-                this.Cards.Add(new Card(CardValue.Ten));
-                this.Cards.Add(new Card(CardValue.Jack));
-                this.Cards.Add(new Card(CardValue.Queen));
-                this.Cards.Add(new Card(CardValue.King));
+                this.Cards.Add(new Card(CardValue.sA));
+                this.Cards.Add(new Card(CardValue.s2));
+                this.Cards.Add(new Card(CardValue.s3));
+                this.Cards.Add(new Card(CardValue.s4));
+                this.Cards.Add(new Card(CardValue.s5));
+                this.Cards.Add(new Card(CardValue.s6));
+                this.Cards.Add(new Card(CardValue.s7));
+                this.Cards.Add(new Card(CardValue.s8));
+                this.Cards.Add(new Card(CardValue.s9));
+                this.Cards.Add(new Card(CardValue.sT));
+                this.Cards.Add(new Card(CardValue.sJ));
+                this.Cards.Add(new Card(CardValue.sQ));
+                this.Cards.Add(new Card(CardValue.sK));
             }
         }
 
@@ -45,7 +45,8 @@ namespace SpiderSolitaire
         {
             foreach (Card card in Cards)
             {
-                System.Console.Write(card.Value + " ");
+                // card.print();
+                Console.Write(card.Value + " ");
             }
         }
     }
